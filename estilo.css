@@ -1,0 +1,227 @@
+/* reset navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+	font-family: 'Roboto', sans-serif;
+}
+/* reset navegadores */
+
+body {
+	background:cadetblue;
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+    margin: 10px;
+}
+
+.contenedor{
+    display: grid;
+    width: 100%;
+    grid-gap: 20px;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.cabeza{
+    display: flex;
+    width: 100%;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    
+    
+}
+
+.header1{
+    background-color: coral;
+    width: 100%;
+    
+}
+
+.header2{
+    background-color:darkgrey;
+    width: 100%;
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+   
+}
+
+/* menu*/
+
+.header2 ul{
+    display: flex;
+}
+
+.header2 ul li{
+    margin-right: 10px;
+    width: 100%;
+}
+
+.header2 ul li a {
+    display: flex;
+    padding: 10px 10px;
+    background: orange;
+    border-radius: 5px;
+}
+
+.header2  ul li a:hover {
+    background: orangered;
+    color: white;
+}
+
+/* menu*/
+
+.contenido{
+    background-color: yellow;
+    grid-column: 1 / 3 ;
+    grid-row: 2 / 4;
+    text-align: left;
+    padding: 10px;
+}
+
+/* grid añidado donaciones*/
+
+.gridpeque{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+
+}
+
+.gridpeque > div{
+    border: 2px solid black;
+    background: blanchedalmond;
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+
+.gridpeque .titulo{
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    display:flex; 
+    
+}
+
+.gridpeque .voluntario{
+    grid-column: 1 / 5;
+    grid-row: 4 / 5;
+}
+
+/* grid añidado donaciones */
+
+/* grid añidado autoridades */
+
+.gridautoridades{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+
+}
+
+.gridautoridades > div{
+    border: 2px solid black;
+    background: blanchedalmond;
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.gridautoridades .autoridades{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    display:flex;    
+}
+
+.gridautoridades .final{
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+}
+
+.gridautoridades .presidente{
+    justify-content: space-evenly;
+}
+
+/* grid añidado autoridades */
+
+/* grid añidado contacto */
+
+.gridcontacto{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+
+}
+
+.gridcontacto > div{
+    border: 2px solid black;
+    background: blanchedalmond;
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.gridcontacto .contacto{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    display:flex;    
+}
+
+.gridcontacto .contactofinal{
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+}
+
+.gridcontacto .datos{
+    justify-content: space-between;
+}
+/* grid añidado conacto */
+
+.sidebear1{
+    background-color: red;
+    grid-column: 3 /4;
+    grid-row: 2 / 3;   
+}
+
+.sidebear2{
+    background-color:tomato;
+    grid-column: 3 /4;
+    grid-row: 3 / 4;
+
+}
+
+.footer1{
+    background-color: red;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+  
+}
+
+.footer2{
+    background-color:grey;
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+
+}
+
+.footer3{
+    background-color: blue;
+    grid-column: 3 /4;
+    grid-row: 4 / 5;
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+
+}
